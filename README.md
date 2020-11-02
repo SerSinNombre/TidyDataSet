@@ -5,10 +5,6 @@ date: "1/11/2020"
 output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## R Markdown
 
 This repository contains a script called run_analysis.R that allows to process the data from the accelerometers from the Samsung Galaxy S smartphone.
