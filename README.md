@@ -5,7 +5,8 @@ date: "1/11/2020"
 output: pdf_document
 ---
 
-## R Markdown
+## Readme
+### Getting and Cleaning Data Course Project
 
 This repository contains a script called run_analysis.R that allows to process the data from the accelerometers from the Samsung Galaxy S smartphone.
 
