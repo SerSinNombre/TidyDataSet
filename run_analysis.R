@@ -41,7 +41,7 @@ data_sel<-data_all[,columns_used]
 ## 3. Use descriptive activity names to name the activities in the data set
 data_sel$Activity<-as.character(data_sel$Activity)
 for(i in 1:6){
-        data_sel$Activity[data_sel$Activity==i]<-as.character(activity_labels[i,1])
+        data_sel$Activity[data_sel$Activity==i]<-as.character(activity_labels[i])
 }
 data_Sel$Activity<-as.factor(data_sel$Activity)
 
